@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipcalculator</title>
+
+    <style>
+        .app-container {
+            width: fit-content;
+        }
+
+        .btn-container {
+            display: flex;
+            width: fit-content;
+            gap: 5px;
+        }
+
+        button {
+            border: 1px black solid;
+            border-radius: 25px;
+            height: 4em;
+        }
+
+        button:hover {
+            background: grey;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class = "app-container">
+            <h1 id = "display">Value Display</h1>
+            <div class = "btn-container">
+                <button id = "total-btn">Total Bill</button>
+                <button id = "percentage-btn">Tip Percentage</button>
+                <button id = "people-btn">Number of People</button>
+                <button id = "calculate-btn">Calculate</button>
+            </div>
+        </div>
+
+    <script>
+
+        let total = document.getElementByID("total-btn");
+        let percentage = document.getElementByID("percentage-btn");
+        let numPeople = document.getElementByID("people-btn");
+        let calculate = document.getElementByID("calculate-btn");
+
+        function inputBillTotal () {
+            
+        }
+
+
+
+    </script>
+</body>
+</html>
